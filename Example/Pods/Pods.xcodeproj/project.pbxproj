@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C68EC337EBE8BE48320B6F53A1F834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		163BFDABD6F7944A2FA9B7BF71C977A7 /* Pods-MKLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D175140C5A420011E48E749F53AFF4 /* Pods-MKLabel_Tests-dummy.m */; };
+		4DE696EA07527E90C375256B44939CA9 /* MKLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FD91EE958088A3868398A7A70896D1 /* MKLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58678527C52877CB77A8C3BDDD72F982 /* Pods-MKLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A536DC912D6A982AC787175A556B1C /* Pods-MKLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586A7590C828AFB10A83311289966554 /* MKLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA152C02E3E29AE30A4D7BCD943DC0E8 /* MKLabel.bundle */; };
+		7765E515D9B1F18993C966DBFC5969C9 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784105A8B9DCCE9B476668FEED7F4DC9 /* MKLabel.swift */; };
+		7D347D812FC6F2BA4C66A1594F55E192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAB1F26EB235B9EADE6FB9C234A9A0 /* ViewController.swift */; };
+		9BB2F5F9E241FBBFBBDC6C18B5A4FC33 /* MKLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 952582B80794E9B300F47014CCEBE482 /* MKLabel-dummy.m */; };
+		AAD5ACADF34938EF44F31668593887FF /* Pods-MKLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 391A425624DE657E00F1A840D3EBBD1C /* Pods-MKLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94CC611D2CC21C8BB40F1B5028ED442 /* Pods-MKLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA01C52ACF94D265CCADDD301E06A98D /* Pods-MKLabel_Example-dummy.m */; };
+		BC7EAFE001437EAC7A0CB67AA2E15D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E1EF1AC71DCAAD56245B6CC7014928D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707C0118BCDAC1D81C8CB94E096B2A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6C501181AA63F8750EBE9A3940C0C3;
+			remoteInfo = MKLabel;
+		};
+		D155AB04B520ECEB23001796C1EC3F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6C501181AA63F8750EBE9A3940C0C3;
+			remoteInfo = MKLabel;
+		};
+		F6C82B9FBE0BD8CCE0D8AF86609D22EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CF05CBF63C7EA6F978FCC309FF59A4;
+			remoteInfo = "MKLabel-MKLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CCAB1F26EB235B9EADE6FB9C234A9A0 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B1223A83A485905570BB1ABD4DE7EA8 /* Pods-MKLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		391A425624DE657E00F1A840D3EBBD1C /* Pods-MKLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		39FD91EE958088A3868398A7A70896D1 /* MKLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKLabel-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AA7B7DBFF13F539A32BA5CCE7C727E1 /* MKLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKLabel-prefix.pch"; sourceTree = "<group>"; };
+		784105A8B9DCCE9B476668FEED7F4DC9 /* MKLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
+		79E5BAFB2DF1A81FE34A337CC4468A59 /* Pods-MKLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		85EC0A2BC2F5E2585F1371758BB89929 /* Pods-MKLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		877F0C289AA193EA9F9298E1913A68BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D175140C5A420011E48E749F53AFF4 /* Pods-MKLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		952582B80794E9B300F47014CCEBE482 /* MKLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKLabel-dummy.m"; sourceTree = "<group>"; };
+		A336776C3782CEC8012946EF87F1CA4F /* Pods-MKLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0A536DC912D6A982AC787175A556B1C /* Pods-MKLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B52D358613FD68665B468E64D33BFBB1 /* Pods-MKLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B9CFEDA432EEFA10652E2350870B6411 /* Pods-MKLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF0E1378A165FA3DE8A2F98C1DB4CCB5 /* Pods_MKLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2F37C7120A68A7E9B91DD57BE0F3A7 /* Pods-MKLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		C2619A4929D46C3D5FE406C79E25E0EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CC17F4EEB57EFD097056A92D3ED93A /* Pods-MKLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA8DB82A1469636EAA14711498CE262 /* Pods-MKLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKLabel_Example.modulemap"; sourceTree = "<group>"; };
+		CD6CAA5EE09BFAC4EDA023DB23FEDEE3 /* Pods_MKLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E45111EDEB76FC06616D4F8F695792 /* MKLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C1711FCB8E5142FCEF5353827FEA97 /* MKLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKLabel.modulemap; sourceTree = "<group>"; };
+		D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKLabel.xcconfig; sourceTree = "<group>"; };
+		DA01C52ACF94D265CCADDD301E06A98D /* Pods-MKLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		DC9358827E3B3EDFBDAA28D8A9F96CFB /* Pods-MKLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B90295C532A09874CD126A952900CB /* Pods-MKLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		E203AB132175C83DB6F52421F1CD4EB2 /* Pods-MKLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECEB558B1E003AEBF707D694D930D4CB /* Pods-MKLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FA152C02E3E29AE30A4D7BCD943DC0E8 /* MKLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA923FA6C40434319DC71CFCC3604BC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFAEF1664BD99A788FD6FD2E3D0CC4A /* Pods-MKLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F2002CCD8B175C2C29480779B72C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EF1AC71DCAAD56245B6CC7014928D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407DBBF646561294FAD24516C4FD77C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830FFA2CA8ACE19767A6FAB15CCC7B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C68EC337EBE8BE48320B6F53A1F834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0918BF29089BA814BA66935416999E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7EAFE001437EAC7A0CB67AA2E15D76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD18D1AF345005AB2AB3749A38A6A6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA923FA6C40434319DC71CFCC3604BC5 /* Info.plist */,
+				D4C1711FCB8E5142FCEF5353827FEA97 /* MKLabel.modulemap */,
+				D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */,
+				952582B80794E9B300F47014CCEBE482 /* MKLabel-dummy.m */,
+				6AA7B7DBFF13F539A32BA5CCE7C727E1 /* MKLabel-prefix.pch */,
+				39FD91EE958088A3868398A7A70896D1 /* MKLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKLabel";
+			sourceTree = "<group>";
+		};
+		337C6CCB8FEB5A7A5CFC22C9EB5AF2B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				629886719B30A78E4ED8212750C05F3D /* MKLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		629886719B30A78E4ED8212750C05F3D /* MKLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D975956E861580E53BCA960FA4A667F /* Pod */,
+				2BD18D1AF345005AB2AB3749A38A6A6F /* Support Files */,
+			);
+			name = MKLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		636E0606AD548413C1F91C8AD2C45A26 /* Pods-MKLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				877F0C289AA193EA9F9298E1913A68BB /* Info.plist */,
+				CBA8DB82A1469636EAA14711498CE262 /* Pods-MKLabel_Example.modulemap */,
+				A336776C3782CEC8012946EF87F1CA4F /* Pods-MKLabel_Example-acknowledgements.markdown */,
+				FDFAEF1664BD99A788FD6FD2E3D0CC4A /* Pods-MKLabel_Example-acknowledgements.plist */,
+				DA01C52ACF94D265CCADDD301E06A98D /* Pods-MKLabel_Example-dummy.m */,
+				B52D358613FD68665B468E64D33BFBB1 /* Pods-MKLabel_Example-frameworks.sh */,
+				E1B90295C532A09874CD126A952900CB /* Pods-MKLabel_Example-resources.sh */,
+				391A425624DE657E00F1A840D3EBBD1C /* Pods-MKLabel_Example-umbrella.h */,
+				DC9358827E3B3EDFBDAA28D8A9F96CFB /* Pods-MKLabel_Example.debug.xcconfig */,
+				B9CFEDA432EEFA10652E2350870B6411 /* Pods-MKLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-MKLabel_Example";
+			path = "Target Support Files/Pods-MKLabel_Example";
+			sourceTree = "<group>";
+		};
+		6530B2836C6FFBF803F7718199C1FB42 /* Pods-MKLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2619A4929D46C3D5FE406C79E25E0EF /* Info.plist */,
+				BF2F37C7120A68A7E9B91DD57BE0F3A7 /* Pods-MKLabel_Tests.modulemap */,
+				85EC0A2BC2F5E2585F1371758BB89929 /* Pods-MKLabel_Tests-acknowledgements.markdown */,
+				1B1223A83A485905570BB1ABD4DE7EA8 /* Pods-MKLabel_Tests-acknowledgements.plist */,
+				88D175140C5A420011E48E749F53AFF4 /* Pods-MKLabel_Tests-dummy.m */,
+				ECEB558B1E003AEBF707D694D930D4CB /* Pods-MKLabel_Tests-frameworks.sh */,
+				79E5BAFB2DF1A81FE34A337CC4468A59 /* Pods-MKLabel_Tests-resources.sh */,
+				B0A536DC912D6A982AC787175A556B1C /* Pods-MKLabel_Tests-umbrella.h */,
+				C6CC17F4EEB57EFD097056A92D3ED93A /* Pods-MKLabel_Tests.debug.xcconfig */,
+				E203AB132175C83DB6F52421F1CD4EB2 /* Pods-MKLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKLabel_Tests";
+			path = "Target Support Files/Pods-MKLabel_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				337C6CCB8FEB5A7A5CFC22C9EB5AF2B2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D11B35C451268F79332F7A8C41C36447 /* Products */,
+				82E87324F64B9B230D71A71C33189AAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82E87324F64B9B230D71A71C33189AAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				636E0606AD548413C1F91C8AD2C45A26 /* Pods-MKLabel_Example */,
+				6530B2836C6FFBF803F7718199C1FB42 /* Pods-MKLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D975956E861580E53BCA960FA4A667F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A27034561CE824531C2103238172F4BB /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A27034561CE824531C2103238172F4BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				784105A8B9DCCE9B476668FEED7F4DC9 /* MKLabel.swift */,
+				0CCAB1F26EB235B9EADE6FB9C234A9A0 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D11B35C451268F79332F7A8C41C36447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C02E3E29AE30A4D7BCD943DC0E8 /* MKLabel.bundle */,
+				D1E45111EDEB76FC06616D4F8F695792 /* MKLabel.framework */,
+				CD6CAA5EE09BFAC4EDA023DB23FEDEE3 /* Pods_MKLabel_Example.framework */,
+				BF0E1378A165FA3DE8A2F98C1DB4CCB5 /* Pods_MKLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23B837092C022A3AC8D736E7B078A258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58678527C52877CB77A8C3BDDD72F982 /* Pods-MKLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275E846346242BCCB89A43857726AE1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD5ACADF34938EF44F31668593887FF /* Pods-MKLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75E3FEC3586345CD25D8D005F8A7CD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE696EA07527E90C375256B44939CA9 /* MKLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D6C501181AA63F8750EBE9A3940C0C3 /* MKLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE03FE558715C8700F4FA7B8039D13B /* Build configuration list for PBXNativeTarget "MKLabel" */;
+			buildPhases = (
+				5034C4AE3A28C8D6C91CDFB6B5E88BBC /* Sources */,
+				830FFA2CA8ACE19767A6FAB15CCC7B48 /* Frameworks */,
+				79EE691CB4E238BECC4BF321E6B1F8D4 /* Resources */,
+				F75E3FEC3586345CD25D8D005F8A7CD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFBF2808DE10B0AD48969D4CAB182D5 /* PBXTargetDependency */,
+			);
+			name = MKLabel;
+			productName = MKLabel;
+			productReference = D1E45111EDEB76FC06616D4F8F695792 /* MKLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4CF05CBF63C7EA6F978FCC309FF59A4 /* MKLabel-MKLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41D8ED6D7E7D4EAA5CB8078E5AE2E6E /* Build configuration list for PBXNativeTarget "MKLabel-MKLabel" */;
+			buildPhases = (
+				0AD4C0FBE6CEA460B6C8B178467450F5 /* Sources */,
+				407DBBF646561294FAD24516C4FD77C9 /* Frameworks */,
+				BFAAB3F1522331C61185F597B4EF9286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKLabel-MKLabel";
+			productName = "MKLabel-MKLabel";
+			productReference = FA152C02E3E29AE30A4D7BCD943DC0E8 /* MKLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AE94D4BE9496A5170E97E140D5A5A592 /* Pods-MKLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755C431E981E88DAABC28463CADD4EEB /* Build configuration list for PBXNativeTarget "Pods-MKLabel_Example" */;
+			buildPhases = (
+				F7232DC5960B167124EF31C9BC979CB1 /* Sources */,
+				9B0918BF29089BA814BA66935416999E /* Frameworks */,
+				275E846346242BCCB89A43857726AE1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D429CD601106BFF892711BFBD0AF0F21 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKLabel_Example";
+			productName = "Pods-MKLabel_Example";
+			productReference = CD6CAA5EE09BFAC4EDA023DB23FEDEE3 /* Pods_MKLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6B301BBF8D891C1D493FE2682EC2DE9 /* Pods-MKLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF08D43FAB88F465B33EB366B15359 /* Build configuration list for PBXNativeTarget "Pods-MKLabel_Tests" */;
+			buildPhases = (
+				6AF2817A27D7ACAEAC51329DAD77EC4F /* Sources */,
+				03F2002CCD8B175C2C29480779B72C74 /* Frameworks */,
+				23B837092C022A3AC8D736E7B078A258 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79450520472983C922FD6EBD61423CCF /* PBXTargetDependency */,
+			);
+			name = "Pods-MKLabel_Tests";
+			productName = "Pods-MKLabel_Tests";
+			productReference = BF0E1378A165FA3DE8A2F98C1DB4CCB5 /* Pods_MKLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D11B35C451268F79332F7A8C41C36447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6C501181AA63F8750EBE9A3940C0C3 /* MKLabel */,
+				A4CF05CBF63C7EA6F978FCC309FF59A4 /* MKLabel-MKLabel */,
+				AE94D4BE9496A5170E97E140D5A5A592 /* Pods-MKLabel_Example */,
+				C6B301BBF8D891C1D493FE2682EC2DE9 /* Pods-MKLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EE691CB4E238BECC4BF321E6B1F8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A7590C828AFB10A83311289966554 /* MKLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAAB3F1522331C61185F597B4EF9286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD4C0FBE6CEA460B6C8B178467450F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5034C4AE3A28C8D6C91CDFB6B5E88BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB2F5F9E241FBBFBBDC6C18B5A4FC33 /* MKLabel-dummy.m in Sources */,
+				7765E515D9B1F18993C966DBFC5969C9 /* MKLabel.swift in Sources */,
+				7D347D812FC6F2BA4C66A1594F55E192 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF2817A27D7ACAEAC51329DAD77EC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163BFDABD6F7944A2FA9B7BF71C977A7 /* Pods-MKLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7232DC5960B167124EF31C9BC979CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94CC611D2CC21C8BB40F1B5028ED442 /* Pods-MKLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFBF2808DE10B0AD48969D4CAB182D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MKLabel-MKLabel";
+			target = A4CF05CBF63C7EA6F978FCC309FF59A4 /* MKLabel-MKLabel */;
+			targetProxy = F6C82B9FBE0BD8CCE0D8AF86609D22EA /* PBXContainerItemProxy */;
+		};
+		79450520472983C922FD6EBD61423CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKLabel;
+			target = 3D6C501181AA63F8750EBE9A3940C0C3 /* MKLabel */;
+			targetProxy = D155AB04B520ECEB23001796C1EC3F0D /* PBXContainerItemProxy */;
+		};
+		D429CD601106BFF892711BFBD0AF0F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKLabel;
+			target = 3D6C501181AA63F8750EBE9A3940C0C3 /* MKLabel */;
+			targetProxy = 707C0118BCDAC1D81C8CB94E096B2A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E14883020DDD3EFCF6415D67C37247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MKLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0ECF4EE2A84275F0EE6A774B63DDC93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKLabel/MKLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKLabel/MKLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MKLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17CF79F02D28314280F772493E30785D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9358827E3B3EDFBDAA28D8A9F96CFB /* Pods-MKLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKLabel_Example/Pods-MKLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1992698CA7C51FCC65302F468E8AB074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E203AB132175C83DB6F52421F1CD4EB2 /* Pods-MKLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKLabel_Tests/Pods-MKLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46A07A67DA4416D635E8D5AB08994039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CFEDA432EEFA10652E2350870B6411 /* Pods-MKLabel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKLabel_Example/Pods-MKLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BE9594EDFE9853A87C4BD23F26F5C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MKLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6B71416AB2631D52EF89D59FC0E1F492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CC17F4EEB57EFD097056A92D3ED93A /* Pods-MKLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKLabel_Tests/Pods-MKLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA2321CBC4E4FECD6E58D6A8EDA6DFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D934E8BAF33999B90059260C848B5FAA /* MKLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKLabel/MKLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKLabel/MKLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755C431E981E88DAABC28463CADD4EEB /* Build configuration list for PBXNativeTarget "Pods-MKLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CF79F02D28314280F772493E30785D /* Debug */,
+				46A07A67DA4416D635E8D5AB08994039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF08D43FAB88F465B33EB366B15359 /* Build configuration list for PBXNativeTarget "Pods-MKLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B71416AB2631D52EF89D59FC0E1F492 /* Debug */,
+				1992698CA7C51FCC65302F468E8AB074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE03FE558715C8700F4FA7B8039D13B /* Build configuration list for PBXNativeTarget "MKLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECF4EE2A84275F0EE6A774B63DDC93C /* Debug */,
+				CA2321CBC4E4FECD6E58D6A8EDA6DFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41D8ED6D7E7D4EAA5CB8078E5AE2E6E /* Build configuration list for PBXNativeTarget "MKLabel-MKLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E14883020DDD3EFCF6415D67C37247 /* Debug */,
+				5BE9594EDFE9853A87C4BD23F26F5C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

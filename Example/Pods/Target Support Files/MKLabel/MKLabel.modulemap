@@ -1,0 +1,6 @@
+framework module MKLabel {
+  umbrella header "MKLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "MKLabel"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MKLabel."
+  s.summary          = "MKLabel is Swift Libarary"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+It will create blinking label for users in swift language.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MKLabel"
+  s.homepage         = "https://github.com/maheepk/MKLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Maheep Kaushal" => "maheepkaushal@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MKLabel.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/maheepk/MKLabel.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
